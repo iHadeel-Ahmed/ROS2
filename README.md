@@ -59,18 +59,20 @@ ros2 node info /turtlesim
 ros2 topic info /turtle1/cmd_vel
 ```
 
+
 ## Screenshots
 
 Screenshots of the commands and results are stored in the [`screenshots/`](screenshots) folder.
 
-* Running Turtlesim & Listing Nodes/Topics
-  ![Turtlesim Node List](screenshots/nodes_topics.png)
+### Screenshot of the executed commands and their output
+![Screenshot 1](screenshots/screenshot%20of%20the%20executed%20commands%20and%20their%20output.png)
 
-* Turtle Movement in Turtlesim Window
-  ![Turtle Movement](screenshots/turtle_movement.png)
+### Screenshot of the executed commands and their output2
+![Screenshot 2](screenshots/screenshot%20of%20the%20executed%20commands%20and%20their%20output2.png)
 
-* Topic Info Command
-  ![Topic Info](screenshots/topic_info.png)
+### Screenshot of the executed commands and their output3
+![Screenshot 3](screenshots/screenshot%20of%20the%20executed%20commands%20and%20their%20output3.png)
+
 
 ## Notes
 
