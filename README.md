@@ -1,59 +1,80 @@
-# ROS2 Turtlesim Project
 
-This project demonstrates basic ROS 2 commands and concepts using the turtlesim package.  
-It covers running Turtlesim, controlling the turtle, listing nodes and topics, and checking topic information.
 
-## 1. Source ROS 2 Environment
-Before running any ROS 2 command, source the environment:
+⸻
+
+ROS2 TurtleSim Project
+
+This project demonstrates working with ROS2 Humble using the turtlesim package.
+The steps include running the turtle simulation, listing nodes, topics, and node info, as well as checking topic information.
+
+Requirements
+ • Ubuntu (running in VirtualBox or directly)
+ • ROS2 Humble installed
+ • turtlesim package installed
+
+Steps Performed
+ 1. Source ROS2 environment:
+
 source /opt/ros/humble/setup.bash
-````
 
-## 2. Run Turtlesim Node
 
-Launch the Turtlesim simulation:
+ 2. Launch TurtleSim:
 
-```bash
 ros2 run turtlesim turtlesim_node
 
-This will open a window showing the turtle in the simulation.
 
-## 3. Control the Turtle with Keyboard
-
-In a new terminal:
-
-ros2 run turtlesim turtle_teleop_key
-
-Controls:
-
-* Arrow keys → Move the turtle.
-* Keys G | B | V | C | D | E | R | T → Rotate turtle to specific angles.
-* Q → Quit teleop.
-
-## 4. List Nodes
+ 3. List active nodes:
 
 ros2 node list
 
-## 5. List Topics
+
+ 4. List available topics:
 
 ros2 topic list
 
-## 6. Get Node Info
+
+ 5. Check node info:
 
 ros2 node info /turtlesim
 
-## 7. Get Topic Info
+
+ 6. Check topic info:
 
 ros2 topic info /turtle1/cmd_vel
 
-## Screenshots
-
-- screenshot of the executed commands and their output
-- screenshot of the executed commands and their output2
-- screenshot of the executed commands and their output3
 
 
+How to Run
+ 1. Clone the repository:
 
-## Notes
+git clone https://github.com/USERNAME/REPO-NAME.git
 
-* Always source the ROS 2 environment in every new terminal before running commands.
-* You can experiment with other Turtlesim services and topics for more practice.
+
+ 2. Navigate to the project folder:
+
+cd REPO-NAME
+
+
+ 3. Make sure ROS2 Humble is installed and sourced:
+
+source /opt/ros/humble/setup.bash
+
+
+ 4. Run the TurtleSim node:
+
+ros2 run turtlesim turtlesim_node
+
+
+ 5. Open another terminal (with ROS2 sourced) to control or inspect the simulation.
+
+Screenshots
+ • Simulation running with turtle drawing shapes.
+
+ • Node and topic listing in the terminal.
+
+ • Topic info output.
+
+
+⸻
+
+
