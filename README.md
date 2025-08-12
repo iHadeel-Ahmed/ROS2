@@ -51,9 +51,9 @@ Example - `/turtle1/cmd_vel` Topic:
 
 ## Screenshots
 
-screenshot of the executed commands and their output
-screenshot of the executed commands and their output 2
-screenshot of the executed commands and their output 3
+- screenshot of the executed commands and their output
+- screenshot of the executed commands and their output 2
+- screenshot of the executed commands and their output 3
 
 ---
 
